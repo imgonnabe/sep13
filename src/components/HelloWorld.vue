@@ -34,7 +34,7 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String// msg 타입이 String
   }
 }
 </script>

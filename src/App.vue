@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+  <DivBox></DivBox>
+  <DivBox></DivBox>
+  <SoundOne></SoundOne>
+  <BoardVue></BoardVue>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import BoardVue from './components/BoardVue.vue'
+import SoundOne from './components/SoundOne.vue'
+import DivBox from './components/DivBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
+    BoardVue, SoundOne, DivBox
   }
 }
 </script>
